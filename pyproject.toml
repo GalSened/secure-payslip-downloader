@@ -1,0 +1,14 @@
+[project]
+name = "secure-payslip-downloader"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.13.0.2",
+    "google-api-python-client>=2.185.0",
+    "google-auth>=2.42.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.2",
+    "pydantic>=2.12.3",
+    "python-dateutil>=2.9.0.post0",
+]

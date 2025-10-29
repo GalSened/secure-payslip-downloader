@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "secure-payslip-downloader": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/galsened/secure-payslip-downloader",
+        "run",
+        "python",
+        "src/server.py"
+      ],
+      "env": {
+        "GMAIL_CREDS_PATH": "/Users/galsened/secure-payslip-downloader/credentials/credentials.json",
+        "DOWNLOAD_BASE_PATH": "/Users/galsened/Documents/Payslips",
+        "TIMEZONE": "Asia/Jerusalem",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
