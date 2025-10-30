@@ -15,6 +15,34 @@ A secure MCP (Model Context Protocol) server that automatically downloads PDF pa
 - 🌍 **Timezone Support** - Configured for Israel timezone (Asia/Jerusalem)
 - 📊 **Comprehensive Logging** - All operations logged with sensitive data redacted
 
+## 🎯 Continue Working - Where You Are Now
+
+**Current Status:** OAuth credentials created in Google Cloud Console
+**Your Client ID:** `444959234045-1mn2vh1pcu3m4l71gljubc74agh1mj7u.apps.googleusercontent.com`
+
+### ✅ Completed Steps:
+- Created Google Cloud project "Payslip Downloader"
+- Enabled Gmail API
+- Configured OAuth consent screen
+- Created OAuth 2.0 credentials (Desktop app)
+
+### 📥 Next Step: Download credentials.json
+
+**See the comprehensive step-by-step guide:** [SETUP_WALKTHROUGH.md](SETUP_WALKTHROUGH.md)
+
+The walkthrough provides:
+- Detailed instructions for downloading credentials.json
+- Step-by-step OAuth setup
+- Claude Desktop configuration
+- Cron job setup
+- Testing procedures
+- Troubleshooting guide
+
+**Quick Link:** Go directly to Google Cloud Console:
+https://console.cloud.google.com/apis/credentials?project=payslip-downloader-476606
+
+---
+
 ## 🏗️ Architecture
 
 ```
